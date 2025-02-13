@@ -2,6 +2,8 @@
 
 
 VIKA_Zero: Vanishing Illusion Key Automator Zero
+
+
 I chose the name VIKA many years ago when I coded my first few encryption systems, and wow, they were
 absolutely horrible. As such, I'm calling this one VIKA Zero to show that the final version will be far
 superior to those old ones, which is why it's 'Zero' instead of some higher number (The inspiration for this 
