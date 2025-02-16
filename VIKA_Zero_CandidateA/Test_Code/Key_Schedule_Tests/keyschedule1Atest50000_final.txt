@@ -1,0 +1,10 @@
+Final Results:
+Highest Pop Count:	50.9692%
+Lowest Pop Count:	49.0116%
+Average Pop Count Range:	674.512
+Average Pop Count:	50.0001%
+Highest Difference:	34492/67584
+Lowest Difference:	33099/67584
+Average Difference Range:	674.905
+Average Difference:	33792/67584 (Half: 33792)
+

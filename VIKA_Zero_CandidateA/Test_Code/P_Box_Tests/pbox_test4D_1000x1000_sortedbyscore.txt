@@ -1,0 +1,66 @@
+S-Box Shuffles:	1024
+P-Box Shuffles:	8192
+KS Bits Per Box:	262144
+Cycles Per P-Box:	2
+# of Cycles:	16
+Mean Differences:	63.96760/128
+Highest Difference:	109
+Lowest Difference:	1
+Range:	108
+Score (0 best, 64 worst):	0.03240
+
+S-Box Shuffles:	128
+P-Box Shuffles:	1024
+KS Bits Per Box:	32768
+Cycles Per P-Box:	2
+# of Cycles:	16
+Mean Differences:	63.96190/128
+Highest Difference:	103
+Lowest Difference:	1
+Range:	102
+Score (0 best, 64 worst):	0.03806
+
+S-Box Shuffles:	32
+P-Box Shuffles:	256
+KS Bits Per Box:	8192
+Cycles Per P-Box:	2
+# of Cycles:	16
+Mean Differences:	63.95450/128
+Highest Difference:	112
+Lowest Difference:	1
+Range:	111
+Score (0 best, 64 worst):	0.04553
+
+S-Box Shuffles:	256
+P-Box Shuffles:	2048
+KS Bits Per Box:	65536
+Cycles Per P-Box:	2
+# of Cycles:	16
+Mean Differences:	63.95140/128
+Highest Difference:	109
+Lowest Difference:	1
+Range:	108
+Score (0 best, 64 worst):	0.04856
+
+S-Box Shuffles:	512
+P-Box Shuffles:	4096
+KS Bits Per Box:	131072
+Cycles Per P-Box:	2
+# of Cycles:	16
+Mean Differences:	63.95140/128
+Highest Difference:	109
+Lowest Difference:	1
+Range:	108
+Score (0 best, 64 worst):	0.04860
+
+S-Box Shuffles:	64
+P-Box Shuffles:	512
+KS Bits Per Box:	16384
+Cycles Per P-Box:	2
+# of Cycles:	16
+Mean Differences:	63.94720/128
+Highest Difference:	114
+Lowest Difference:	1
+Range:	113
+Score (0 best, 64 worst):	0.05279
+

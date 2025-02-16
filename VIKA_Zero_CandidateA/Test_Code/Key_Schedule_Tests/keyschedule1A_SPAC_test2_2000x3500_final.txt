@@ -1,0 +1,5 @@
+Highest Difference:	118/128
+Lowest Difference:	1/128
+Range:	117
+Average Difference:	63.9547/128
+

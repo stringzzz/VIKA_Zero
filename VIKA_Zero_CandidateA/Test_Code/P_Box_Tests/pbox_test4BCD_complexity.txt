@@ -1,0 +1,3 @@
+4B: Total operations per block: 5993 (7801 if with the xor_bytes loop)
+4C: Operations per block: 4309
+4D: Operations per block: 6117

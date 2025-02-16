@@ -1,0 +1,35 @@
+1:
+Generated key: 1/1
+Original key: 94 91 149 182 155 3 146 202 15 235 35 231 167 85 23 39 
+Generated key: 133 108 139 127 11 6 193 116 19 182 149 148 152 223 244 174 
+Pop Count: 65/128 (50.7812%)
+Tests took 0 seconds.
+
+1000:
+Generated key: 1000/1000
+Pop Count: 63836/128000 (49.8719%)
+Tests took 9 seconds.
+
+1000000:
+Generated key: 1000000/1000000
+Pop Count: 63994500/128000000 (49.9957%)
+Tests took 13638 seconds.
+
+
+
+1B:
+
+2:
+Generated key: 1/2
+Original key: 68 178 248 218 122 99 59 212 214 126 201 241 167 22 50 222 
+Generated key: 83 130 41 203 220 129 208 197 206 158 0 159 32 180 157 56 
+Generated key: 2/2
+Original key: 79 170 18 25 91 1 228 32 43 175 95 155 145 199 37 177 
+Generated key: 106 35 5 163 165 44 163 237 28 69 130 130 37 184 203 63 
+Pop Count: 115/256 (44.9219%)
+Tests took 0 seconds.
+
+1000000:
+Generated key: 1000000/1000000
+Pop Count: 64010700/128000000 (50.0083%)
+Tests took 14358 seconds.
