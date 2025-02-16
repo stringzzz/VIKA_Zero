@@ -22,8 +22,13 @@ needed and can deeply analyze this system myself, I can finalize this project by
 to become VIKA_Zero.
 
 
-Also, as soon as I organize my files and write a very informal paper on Candidate A, I will put all that up on here
-as well. (Message from 02-13-2025)
+The informal paper is now up along with all of the code that was used to do the tests on it. There was also a mistake found only
+after writing the paper, but I left the test code as is since the mistake didn't seem to invalidate the tests. The problem
+was that the key schedule generated was uch larger than it needed to be, where the extra bytes were just not used at all. As 
+for the main code found outside of the "test_code" directory, that part is fixed with the new, proper key schedule.
+
+
+Next step is learning more of what I need to move forward with this project, see the informal paper's conclusion for details.
 
 
 That's all for now,
