@@ -28,6 +28,16 @@ was that the key schedule generated was much larger than it needed to be, where 
 for the main code found outside of the "test_code" directory, that part is fixed with the new, proper key schedule.
 
 
+(Message 02-15-2025):
+
+In regards to that mistake, I tracked down the problem from where it was first introduced, and refactored the test code.
+The mistake didn't seem to be such a major problem, the genBox function was still using the correct amount of key schedule
+bits to produce the boxes, however the key_schedule function was producing too many, and they were distributed to each part
+by incorrect sizes, so it wasn't really using the bytes it should have been. This is all fixed in the test code, and I decided
+to run the affected tests again. As for the informal paper, I will leave in the previous results, but make a note that there
+was a mistake, and after which add new sections for the fixed test code and results in the paper.
+
+
 Next step is learning more of what I need to move forward with this project, see the informal paper's conclusion for details.
 
 
