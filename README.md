@@ -24,7 +24,7 @@ to become VIKA_Zero.
 
 The informal paper is now up along with all of the code that was used to do the tests on it. There was also a mistake found only
 after writing the paper, but I left the test code as is since the mistake didn't seem to invalidate the tests. The problem
-was that the key schedule generated was uch larger than it needed to be, where the extra bytes were just not used at all. As 
+was that the key schedule generated was much larger than it needed to be, where the extra bytes were just not used at all. As 
 for the main code found outside of the "test_code" directory, that part is fixed with the new, proper key schedule.
 
 
