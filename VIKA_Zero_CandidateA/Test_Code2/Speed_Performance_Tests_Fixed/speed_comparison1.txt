@@ -1,0 +1,32 @@
+ANGELITA128:
+
+Encrypting...
+Key: 7e2c392c340bf6d853ad63661ff41eae
+Encrypt time: 93743628 microseconds.
+Time per block: 14 microseconds
+Encryption complete.
+
+Decrypting...
+Decrypt time: 89844511 microseconds.
+Time per block: 13 microseconds
+Decryption complete
+
+
+VIKA_Zero:
+
+Encrypting...
+Key: 5795dc6bad2c266b2a5a20a235801ca8
+Encrypt time: 19132866 microseconds.
+Time per block: 2 microseconds
+Encryption complete.
+
+Decrypting...
+Decrypt time: 20119000 microseconds.
+Time per block: 3 microseconds
+Decryption complete
+
+
+Comparison:
+
+Encrypt: 93743628 / 19132866 * 100 = 489.9612426% (Roughly 5x faster)
+Decrypt: 89844511 / 20119000 * 100 = 446.5654903% (Roughly 4.5x)

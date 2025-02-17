@@ -1,0 +1,15 @@
+4B:
+Total operations per block: 5993
+42710115 microseconds
+Time per 1 block: 4.27101 microseconds
+
+4C:
+4C: Operations per block: 4309
+30423554 microseconds
+Time per 1 block: 3.04236 microseconds
+
+4D:
+4D: Operations per block: 6117
+33969906 microseconds
+Time per 1 block: 3.39699 microseconds
+

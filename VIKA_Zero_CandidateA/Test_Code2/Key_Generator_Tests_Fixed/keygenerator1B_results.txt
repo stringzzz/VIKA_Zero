@@ -1,0 +1,3 @@
+Generated key: 1000000/1000000
+Pop Count: 63992900/128000000 (49.9944%)
+Tests took 6742 seconds.
