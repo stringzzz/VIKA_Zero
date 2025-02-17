@@ -23,6 +23,8 @@
     
     Mistake Found: 02-15-2025: Too much Key Schedule was being produced, almost 3 times more than needed.
     This was fixed and it is working now, but this may invalidate some of the tests.
+
+    02-16-2025: All affected test code fixed, tests rerun, and the informal paper is now revised.
 	
 	Project Completed: ?(Not Exactly Done Yet)
 
