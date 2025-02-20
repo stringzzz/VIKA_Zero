@@ -1,0 +1,66 @@
+keyschedule1Atest:
+
+With Diffusion Slide:
+
+Highest Pop Count:	52.1213%
+Lowest Pop Count:	47.819%
+Average Pop Count Range:	352.114
+Average Pop Count:	49.9999%
+Highest Difference:	9588/18432
+Lowest Difference:	8876/18432
+Average Difference Range:	352.122
+Average Difference:	9216.02/18432
+
+With Diffusion Slide 2:
+
+Highest Pop Count:	51.9097%
+Lowest Pop Count:	47.9112%
+Average Pop Count Range:	352.355
+Average Pop Count:	49.9998%
+Highest Difference:	9570/18432
+Lowest Difference:	8855/18432
+Average Difference Range:	352.273
+Average Difference:	9216.08/18432
+
+It all seems to be slightly worse, though this may be due to the fact that it's not using
+the same set of test data, so some slight differences are likely to happen. Moving on...
+
+
+SAE:
+
+With Diffusion Slide:
+
+Highest Difference:	117/128
+Lowest Difference:	1/128
+Range:	116
+Average Difference:	63.955/128
+
+With Diffusion Slide 2:
+
+Highest Difference:	98/128
+Lowest Difference:	25/128
+Range:	73
+Average Difference:	64/128
+
+Woah, it seemed DS2 actually fixed that left bump problem!
+It looks like I will have to update the paper after all with these new findings.
+First, KAE:
+
+
+KAE:
+
+With Diffusion Slide:
+
+Highest Difference:	98/128
+Lowest Difference:	30/128
+Average Difference Range:	52.511
+Average Difference:	64/128
+
+With Diffusion Slide 2:
+
+Highest Difference:	98/128
+Lowest Difference:	29/128
+Average Difference Range:	52.484
+Average Difference:	63.9999/128
+
+About the same

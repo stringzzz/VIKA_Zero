@@ -1,0 +1,23 @@
+Note: A change in 1 bit of the plaintext produces a very small change in the resulting ciphertext with diffusion slide alone.
+This makes sense, as the 1 bit is only moving along up to 16 bytes as it goes across with the XORs.
+
+As for the differences between plaintexts and ciphertexts:
+
+Diffusion Slide:
+
+Highest Difference:	82/128
+Lowest Difference:	33/128
+Range:	49
+Average Difference:	55.9965/128
+
+Diffusion Slide 2:
+
+Highest Difference:	91/128
+Lowest Difference:	36/128
+Range:	55
+Average Difference:	63.9869/128
+
+
+It makes sense that the DS1 has a smaller range due to it not covering the last byte of the block.
+Also, DS1 is close to an average of 56 bits, also due to it not changing the last byte.
+Finally, DS2 has an average close to half of the bits.
