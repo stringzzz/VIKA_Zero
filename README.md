@@ -17,6 +17,12 @@ wasn't as bad as I originally thought, but it definitely warranted redoing all t
 was valid.
 
 
+02-20-2025: Updated the "diffusion slide" functions so it now covers the last byte in the block.
+Decided to redo the tests, and found a significant difference in the plaintext avalanche effect.
+So, added the new test code, added results to newly revised paper as well. Note that the main system
+itself now has the updated diffusion slide functions as well.
+
+
 Next step is learning more of what I need to move forward with this project, see the informal paper's conclusion for details.
 
 
