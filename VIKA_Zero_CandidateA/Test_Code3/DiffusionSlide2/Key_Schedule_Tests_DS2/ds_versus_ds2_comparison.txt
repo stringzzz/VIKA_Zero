@@ -26,7 +26,7 @@ It all seems to be slightly worse, though this may be due to the fact that it's 
 the same set of test data, so some slight differences are likely to happen. Moving on...
 
 
-SAE:
+PAE:
 
 With Diffusion Slide:
 
