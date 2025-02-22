@@ -17,12 +17,6 @@
 */
 
 /*
-	VIKA_Zero_CandidateA: Vanishing Illusion Key Automator Zero (Candidate A)
-
-	Project Start date: 12-24-2024
-	Project Completed: ?(Not Exactly Done Yet)
-
-	VIKA_Zero_CandidateA Exception class
 
 !!!!!!!!!!!!!! VERY IMPORTANT !!!!!!!!!!!
 
