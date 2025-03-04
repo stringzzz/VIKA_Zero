@@ -19,7 +19,7 @@
 
 std::string format_double(double value, int precision);
 
-int main() {
+int main(int argc, char *argv[]) {
 
 	if (argc < 3) {
 		std::cout << "Need input distribution (1st) and output statistics (2nd) filenames as arguments.\n";
