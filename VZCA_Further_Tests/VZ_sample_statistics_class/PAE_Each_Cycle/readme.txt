@@ -1,4 +1,4 @@
-This was for testing the bit differences between original plaintexts and their corresponding "bit flipped" plaintexts.
+This was for testing the bit differences between original plaintexts and their corresponding "bit flipped" plaintexts during encryption.
 The differences were gathered at the end of each encryption cycle to track these differences as it goes through the entire encryption
 process.
 
