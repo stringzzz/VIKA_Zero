@@ -66,11 +66,11 @@ int main() {
 	unsigned int cycles_per_pbox = 2;
 	unsigned int cycles = 16;
 
-    double difference_distribution[16][129];
+	double difference_distribution[16][129];
 	for(unsigned int m = 0; m < 16; m++) {
- 	   for(unsigned int n = 0; n <= 128; n++) {
-    	    difference_distribution[m][n] = 0;
-    	}
+		for(unsigned int n = 0; n <= 128; n++) {
+			difference_distribution[m][n] = 0;
+		}
 	}
 
 	auto start_keyschedule1A = high_resolution_clock::now();
@@ -345,24 +345,24 @@ void encrypt_test_original(unsigned int block[][16], unsigned int sbox[], unsign
 }
 
 void encrypt_test_flipped(unsigned int original_plaintext[][16], unsigned int block[], double difference_distribution[][129], unsigned int sbox[], unsigned int pbox[], int pbox_cycles, int ncycles, unsigned int xor_bytes[]) {
-    //FLAG
+	//FLAG
 	unsigned int nxor_bytes = 0;
-    for(unsigned int cycles = 1; cycles <= ncycles; cycles++) {
-        sBox(block, 16, sbox);
-        
+	for(unsigned int cycles = 1; cycles <= ncycles; cycles++) {
+		sBox(block, 16, sbox);
+		
 		if (cycles % pbox_cycles == 0 && cycles % 4 != 0) {
-            apply_pbox(block, pbox);
-        } else if (cycles % 4 == 0) {
-            diffusion_slide2_encrypt(block);
-        }
+			apply_pbox(block, pbox);
+		} else if (cycles % 4 == 0) {
+			diffusion_slide2_encrypt(block);
+		}
 
-        for(unsigned int n = 0; n < 16; n++, nxor_bytes++) {
-            block[n] ^= xor_bytes[nxor_bytes];
-        }
+		for(unsigned int n = 0; n < 16; n++, nxor_bytes++) {
+			block[n] ^= xor_bytes[nxor_bytes];
+		}
 
 		compare_original_and_flipped(original_plaintext[cycles], block, difference_distribution[cycles - 1]);
 
-    }
+	}
 }
 
 void compare_original_and_flipped(unsigned int original[], unsigned int flipped[], double difference_distribution[]) {
