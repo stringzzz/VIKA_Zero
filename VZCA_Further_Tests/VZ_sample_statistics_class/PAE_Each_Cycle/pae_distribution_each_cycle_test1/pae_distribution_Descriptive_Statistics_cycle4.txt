@@ -1,0 +1,44 @@
+Count: 63999995
+
+Max: 128
+
+Min: 1
+
+Range: 127
+
+Quartiles: 31.5 64 96.5 
+
+Interquartile Range: 65
+
+Outliers: None
+
+Mean: 47.3167
+
+Median: 64
+
+Mode(s): 48 
+
+Variance: 424.5363
+
+Standard Deviation: 20.6043
+
+Kurtosis: 2.6024
+
+Kurtosis Excess: -0.3976
+
+Mid Range: 64.5
+
+Sum of Squares: 27170318646.7537
+
+Mean Absolute Deviation: 16.8415
+
+Root Mean Square: 51.6082
+
+Standard Error of Mean: 0.0026
+
+Skewness: 0.2583
+
+Coefficient of Variation: 0.4355
+
+Relative Standard Deviation: 43.5455%
+
