@@ -1,8 +1,8 @@
 Upon viewing the initial test results, I had mistakenly thought that the highly common pair of differentials
 0->0 was significant. However, it is obvious that if the pair of input had matching bytes, then clearly the
 pair of output must have matching bytes as well, making their differential also be 0. Taking the number of test box setups, 
-3,500,000, and multiplying by the max number of occurences of the 0->0 pair, 256, we get 896,000,000, which is 
-the exact number of occurences for all the box setups for that pair of differentials. Looking at the least common 
+3,500,000, and multiplying by the max number of occurrences of the 0->0 pair, 256, we get 896,000,000, which is 
+the exact number of occurrences for all the box setups for that pair of differentials. Looking at the least common 
 cases, it also makes sense that if the input differential is 0, then the output differential cannot be non-zero, 
 and also if the input differential is non-zero, the output differential cannot be 0, which is why those differentials don't
 occur at all.
