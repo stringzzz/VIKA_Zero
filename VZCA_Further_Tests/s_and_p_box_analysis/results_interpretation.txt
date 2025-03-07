@@ -1,0 +1,20 @@
+For this test, 4,608,000 keys were generated, the key schedule was produced for each one, and the S-Box and P-Box were
+set up for each one. Then, every possible input was fed into each S-Box and P-Box, and the frequencies of the input/output
+pairs were recorded in order to try and determine if there was some kind of bias for pairs that occured more frequently.
+
+P-Box: Highest - Lowest = 145391 - 142868 = 2523
+S-Box: Highest - Lowest = 18595 - 17448 = 1147
+
+They appear to be fairly evenly distributed. The differences between them may be only by chance rather than
+them showing any kind of bias. It is unclear as to exactly how much of the key goes into each box setup,
+but it is safe to say that 2^12 * 1125 (# of box setups in test) is only a very small fraction of how many possible box setups there are.
+Technically there are 256! (factorial) possible S-Boxes and 32! (factorial) possible P-Boxes, however due to the dependency on the key
+to produce the box setups there are less possible setups than that, at most 2^128.
+
+This really poses a problem for cryptanalyzing VIKA Zero. If the security of the cipher depends solely on
+the secrecy of the key, and the box setups are determined only by the key, AND the possible setups of the boxes
+are evenly distributed, how can one know which box setups are being used at any given time? Currently, I still
+lack the skills needed to do proper cryptanalysis as it is, but this seems like a big obstacle in the analysis.
+While this does sound great for the security of the cipher, I still definitely won't claim that the cipher
+actually is secure, it is just more likely that I don't know how to approach any attacks on it in my ignorance,
+so I will just leave it at that for now.
