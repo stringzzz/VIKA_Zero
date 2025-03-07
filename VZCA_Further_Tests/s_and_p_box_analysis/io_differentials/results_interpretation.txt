@@ -1,0 +1,14 @@
+Upon viewing the initial test results, I had mistakenly thought that the highly common pair of differentials
+0->0 was significant. However, it is obvious that if the pair of input had matching bytes, then clearly the
+pair of output must have matching bytes as well, making thier differential also be 0. Taking the number of test box setups, 
+3,500,000, and multiplying by the max number of occurences of the 0->0 pair, 256, we get 896,000,000, which is 
+the exact number of occurences for all the box setups for that pair of differentials. Looking at the least common 
+cases, it also makes sense that if the input differential is 0, then the output differential cannot be non-zero, 
+and also if the input differential is non-zero, the output differential cannot be 0, which is why those differentials don't
+occur at all.
+
+Aside from that, the distribution of input and output differential pairs seems to be evenly distributed. Given that the
+results of the previous test showed that the input byte -> output byte distribution also appears fairly even, it seems that
+if there actually is some kind of bias then it must be subtle. I still clearly don't have what I need to even perform any
+modern cryptanalysis attacks, and so it's safe to say that this test is inconclusive as to whether or not VIKA Zero is weak
+against differential cryptanalysis or not.
