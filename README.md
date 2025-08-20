@@ -3,7 +3,8 @@
 
 VIKA_Zero: Vanishing Illusion Key Automator Zero
 
-An ongoing encryption system project.
+An ongoing encryption system project. 
+Candidate A is fully up and running, it just needs deeper analysis that I'm currently not capable of.
 
 
 I chose the name VIKA many years ago when I coded my first few encryption systems, and wow, they were
